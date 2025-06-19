@@ -1,0 +1,54 @@
+.mem{
+    color: #160501;
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    
+    
+}
+
+body {
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden; /* Optional: Prevent scrollbars from pseudo-element */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/Images/IMG_0658.JPG');
+    background-size: contain; /* Show image with max height */
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7; /* Set your preferred transparency */
+    z-index: -110;
+}
+
+html{
+
+    background-color: #ADB2D4;
+}
+
+.itt{
+    display: inline;
+    padding-left: px;
+    
+}
+
+
+
+.itt{
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  writing-mode:sideways-rl;
+  text-orientation: upright;
+  color: #C7D9DD;
+  font-size: 50px;
+}
